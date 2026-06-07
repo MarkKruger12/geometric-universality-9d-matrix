@@ -1,0 +1,42 @@
+================================================================================
+AXIS 1.1: CRITICAL EVALUATION OF GEOMETRIC BOUNDARY ASSUMPTIONS
+================================================================================
+
+1. THE IDEALIZED GEOMETRIC MATRIX VS. PHYSICAL CONTINUUM
+--------------------------------------------------------------------------------
+The 2D-to-1D Cut-and-Project derivation operates under a rigid mathematical 
+idealism. While the linear transformations, projection operators (P_||, P_⊥), 
+and the acceptance window width (W = φ) are algebraically flawless, they rely 
+on three unstated, highly restrictive boundary assumptions:
+
+ASSUMPTION A: Zero Phason Strain (Static Slicing Angle)
+- Claude treats the slicing plane angle (tanθ = 1/φ) as a fixed, invariant constant.
+- Physical Reality: External mechanical stress fields directly couple to phason 
+  space, causing the slicing plane to tilt, warp, or fluctuate non-linearly.
+
+ASSUMPTION B: Rigid Parent Lattice (Incompressible Z²)
+- The model assumes the 2D parent grid remains a perfect, undistorted square lattice.
+- Physical Reality: Extreme directional loading distorts the hyper-cubic unit cell, 
+  destroying the strict orthogonality of the projection vectors.
+
+ASSUMPTION C: Frictionless Atomic Translation (Idealized Phason Flips)
+- The model treats the phason flip (...L-S-L... -> ...L-L-S...) as an instantaneous, 
+  energy-neutral mathematical substitution.
+- Physical Reality: Moving an atom across a local potential barrier requires 
+  activation energy, generating micro-structural friction and heat dissipation.
+
+2. THE THERMODYNAMIC COUPLING (THE MISSING LINK)
+--------------------------------------------------------------------------------
+By treating the system purely as a spatial projection, the model strips out the 
+governing thermodynamic variable: Time and Thermal Energy. 
+
+At absolute zero (0 K), the atomic coordinates are locked inside the acceptance 
+strip. As temperature or mechanical stress increases, localized energy fluctuations 
+allow atoms near the window boundaries to "tunnel" or jump across the selection line 
+erratically. 
+
+The structural symmetry isn't just broken by geography; it is modulated by energy 
+density over time. Without accounting for the energy barrier required to trigger a 
+phason flip, the linear algebra describes a frozen crystal layout, not a dynamic, 
+load-bearing material structure.
+================================================================================

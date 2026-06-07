@@ -1,0 +1,58 @@
+================================================================================
+AXIS 1.2: HYDRODYNAMIC FIELD THEORY & PHASON ELASTICITY TENSORS
+================================================================================
+
+1. THE EXPANDED HYDRODYNAMIC DEGREES OF FREEDOM
+--------------------------------------------------------------------------------
+When a quasicrystal transitions from an idealized spatial projection to a 
+dynamic, load-bearing physical continuum, its thermodynamic description must 
+expand. In addition to the standard 3 spatial translation dimensions (phonons), 
+the material possesses internal hydrodynamic degrees of freedom (phasons) 
+arising from the higher-dimensional parent lattice space.
+
+* Phonon Displacement Field (u_i): Represents the continuous, elastic 
+  displacement of atoms from their equilibrium positions. Governed by momentum 
+  conservation and propagates as acoustic waves.
+  
+* Phason Displacement Field (w_i): Represents the local, discontinuous 
+  rearrangement of atomic configurations (phason flips). Governed by diffusion 
+  mechanics across localized potential barriers.
+
+2. THE COUPLED CONSTITUTIVE EQUATIONS
+--------------------------------------------------------------------------------
+Under an external stress field, the free energy density (F) of an icosahedral 
+quasicrystal cannot be evaluated using standard isotropic Hooke's Law. It is 
+expressed as a coupled quadratic expansion of both the symmetric phonon strain 
+tensor (ε_ij) and the asymmetric phason strain tensor (ζ_ij):
+
+  F = 1/2 * C_ijkl * ε_ij * ε_kl  +  R_ijkl * ε_ij * ζ_kl  +  1/2 * K_ijkl * ζ_ij * ζ_kl
+
+Where:
+  - C_ijkl: Phonon elasticity tensor (governing standard bulk/shear modulus).
+  - K_ijkl: Phason elasticity tensor (governing the energy cost of structural shifts).
+  - R_ijkl: Phonon-phason coupling tensor (the direct mechanical link where 
+            physical loading forces the hyper-dimensional slicing window to tilt).
+
+In a macroscopic icosahedral phase, this field theory reduces the complex 
+geometry down to exactly 5 independent elastic constants: 2 for phonons (Lamé 
+coefficients), 2 for phasons, and 1 for the direct phonon-phason coupling.
+
+3. PROPAGATION VS. DIFFUSION DYNAMICS
+--------------------------------------------------------------------------------
+Because the physical mechanisms driving u_i and w_i are distinct, their equations 
+of motion break down into a coupled hyperbolic-parabolic system:
+
+  Phonon Dynamics (Hyperbolic):  ρ * ü_i = ∂_j ( σ_ij )
+  Phason Dynamics (Parabolic):   A * ŵ_i = ∂_j ( H_ij )
+
+Where:
+  - ρ is the material density.
+  - A is a phason friction coefficient related to the atomic activation barrier.
+  - σ_ij is the standard symmetric Cauchy stress tensor.
+  - H_ij is the generalized asymmetric phason stress tensor.
+
+Under extreme directional loading, if H_ij exceeds the local activation energy 
+threshold, the phason field enters a state of plastic drift. The slicing window 
+warps, forcing a cascade of phason flips that alters the local structural density, 
+pinning dislocations and fundamentally dictating the material's yield strength.
+================================================================================

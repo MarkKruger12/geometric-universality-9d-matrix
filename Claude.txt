@@ -1,0 +1,89 @@
+================================================================================
+AXIS 1: THE 2D-TO-1D CUT-AND-PROJECT METHOD FOR APERIODIC TILINGS
+================================================================================
+
+1. THE GEOMETRIC ENVELOPE (BEYOND THE 3D BOX)
+--------------------------------------------------------------------------------
+In standard three-dimensional space, the Crystallographic Restriction Theorem 
+proves that a periodic lattice can only accommodate 1, 2, 3, 4, and 6-fold 
+rotational symmetries. A 5-fold regular pentagon leaves empty structural gaps or 
+forces overlapping contradictions, making periodic tiling mathematically 
+impossible in a standard 3-axis coordinate system.
+
+The solution requires standing outside the 1D physical timeline, treating the 
+aperiodic sequence as a lower-dimensional projection (a shadow) cast by a 
+perfectly periodic higher-dimensional parent lattice. For a 1D Fibonacci chain, 
+the parent frame is a standard 2D Cartesian integer lattice (Z²).
+
+2. THE TRANSFORMATION & PROJECTION MATRICES
+--------------------------------------------------------------------------------
+We define an physical space line (E_||) passing through the origin of Z² at an 
+irrational slope defined by the inverse of the Golden Ratio (1/φ), where:
+  φ = (1 + √5) / 2 ≈ 1.618033...
+
+We also define an orthogonal perpendicular space axis (E_⊥) representing the 
+internal, unobservable geometric constraints (phason space). 
+
+To map a standard 2D lattice coordinate vector x = [x, y]ᵀ from Z² into this 
+rotated hyper-framework, we apply the rotation matrix R:
+
+  R = 1 / √(1 + φ²) * [  φ   1 ]
+                      [ -1   φ ]
+
+Using the identity √(1 + φ²) = √(φ + 2), this transformation yields two discrete 
+linear projection vectors for any integer point [x, y]ᵀ:
+
+* Parallel Physical Projection (P_||):
+  x_|| = P_|| * x = (φ*x + y) / √(φ + 2)
+
+* Perpendicular Phason Projection (P_⊥):
+  x_⊥ = P_⊥ * x = (-x + φ*y) / √(φ + 2)
+
+3. THE SELECTION WINDOW (THE ACCEPTANCE STRIP)
+--------------------------------------------------------------------------------
+Projecting every single coordinate from the infinite 2D grid onto E_|| would 
+create a dense, chaotic overlap. To isolate a clean, valid Fibonacci chain 
+composed strictly of Long (L) and Short (S) intervals, we construct a geometric 
+filter (an acceptance strip) parallel to E_||.
+
+The exact mathematical width (W) of this window is defined by projecting a 
+single unit square of the Z² lattice onto the perpendicular axis E_⊥. This is 
+equal to the sum of the absolute projections of the unit basis vectors 
+e_1 = [1, 0]ᵀ and e_2 = [0, 1]ᵀ:
+
+  W = |P_⊥ * e_1| + |P_⊥ * e_2| = (1 + φ) / √(φ + 2)
+
+THE ACCEPTANCE CONDITION:
+A 2D integer coordinate x = [x, y]ᵀ is accepted into the physical universe 
+if and only if its perpendicular projection falls precisely within this window:
+
+  x_⊥ ∈ [0, W)
+
+When this condition is met, x_|| is plotted as a node. Because the slope of the 
+slice is an irrational number (1/φ), the distance between successive projected 
+nodes will never repeat periodically, yet the sequence possesses absolute, 
+long-range structural order inherited from the 2D grid.
+
+4. THE MECHANICS OF THE FAULT (PHASON FLIPS)
+--------------------------------------------------------------------------------
+By looking at the system from outside, we can isolate the exact coordinates of 
+a structural vulnerability. We introduce a localized displacement or 'slip' 
+variable (γ) into the perpendicular phason constraint:
+
+  x_⊥ - γ ∈ [0, W)
+
+When γ is varied continuously, the physical line E_|| remains stationary, but 
+the selection window shifts across the 2D parent grid. This shift creates localized 
+boundary transitions:
+  - Discrete 2D lattice points near the ceiling of the window are pushed out.
+  - Neighboring 2D lattice points near the floor of the window are pulled in.
+
+On the physical 1D line, this manifests as a sudden, discontinuous atomic 
+rearrangement known as a PHASON FLIP. A local sequence configuration will instantly 
+snap its intervals (e.g., swapping from ...L-S-L... to ...L-L-S...). 
+
+While this atomic jump appears as a sudden, unpredictable structural fault when 
+measured strictly from within the 1D timeline, it is perfectly continuous, deterministic, 
+and stable when viewed from the exogenous 2D parent lattice. The global, 
+long-range aperiodic order remains entirely unbroken.
+================================================================================

@@ -1,0 +1,49 @@
+================================================================================
+AXIS 1.4: ICOSAHEDRAL MATRIX COORIDINATES & Z⁶ BASIS VECTORS
+================================================================================
+
+1. THE 6D TO 3D PROJECTION VECTORS
+--------------------------------------------------------------------------------
+To project a 6D hyper-cubic integer lattice (Z⁶) into a 3D physical space (E_||) 
+while maintaining perfect, long-range icosahedral symmetry, we map the six 
+basis vectors of Z⁶ onto six vectors pointing to the vertices of a regular 
+icosahedron in 3D space.
+
+Let the 6 basis vectors in physical space be defined as e_n^|| (for n = 1, ..., 6). 
+Using the standard Cartesian coordinate axis system, these vectors are defined 
+precisely by the transcendental scaling constant φ:
+
+  e_1^|| = N * [  1,   0,  φ ]ᵀ
+  e_2^|| = N * [  1,   0, -φ ]ᵀ
+  e_3^|| = N * [  0,   φ,  1 ]ᵀ
+  e_4^|| = N * [  0,  -φ,  1 ]ᵀ
+  e_5^|| = N * [  φ,  1,   0 ]ᵀ
+  e_6^|| = N * [ -φ,  1,   0 ]ᵀ
+
+Where N is a normalization constant, defined as N = 1 / √(1 + φ²) = 1 / √(φ + 2), 
+ensuring that all projection vectors are unit lengths.
+
+2. THE INNER PRODUCT PROPERTIES (THE GEOMETRIC MATRIX)
+--------------------------------------------------------------------------------
+Because these six vectors point to the vertices of a regular icosahedron, their 
+mutual spatial relationships are heavily restricted by the symmetry operations 
+of the point group. The inner product (dot product) between any two distinct 
+basis vectors e_i^|| and e_j^|| can only yield three possible values:
+
+  e_i^|| · e_j^|| =  1      (if i = j, identical vertex)
+  e_i^|| · e_j^|| =  1/√5   (if the vertices are adjacent)
+  e_i^|| · e_j^|| = -1      (if the vertices are directly opposite)
+
+This rigid inner product matrix proves that the structural arrangement is 
+completely bound by φ-proportional spacing.
+
+3. THE COMPLEMENTARY PHASON SPACE VECTOR SET
+--------------------------------------------------------------------------------
+To maintain the total 6D structural integrity, the orthogonal perpendicular space 
+(phason space, E_⊥) must contain a complementary set of six basis vectors e_n^⊥. 
+These are constructed by swapping signs to ensure that the total 6D transformations 
+remain perfectly orthogonal:
+
+  e_1^⊥ = N * [ -φ,  1,   0 ]ᵀ
+  e_2^⊥ = N * [  φ,  1,   0 ]ᵀ
+  e_3^...

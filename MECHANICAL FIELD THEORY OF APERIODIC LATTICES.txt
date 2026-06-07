@@ -1,0 +1,47 @@
+================================================================================
+MASTER BLUEPRINT: MECHANICAL FIELD THEORY OF APERIODIC LATTICES
+================================================================================
+
+[AXIS 1.1: STATIC GEOMETRY & HIGHER-DIMENSIONAL PROJECTION]
+--------------------------------------------------------------------------------
+* Parent Framework: 6D Hyper-Cubic Integer Lattice (Z⁶) projected to 3D space.
+* Slicing Matrix: Rotated at an irrational slope angle tan(θ) = 1/φ.
+* Acceptance Window: Defined by the unit hyper-cube projection onto perpendicular 
+  phason space (E_⊥).
+* Exact Envelope Width: W = (1 + φ) / √(φ + 2)  --> Simplifies exactly to W = φ.
+* Structural Fault: Phason flips (...L-S-L... -> ...L-L-S...) occur when a local 
+  coordinate shifts across the window boundary via a perpendicular displacement (γ).
+
+[AXIS 1.2: HYDRODYNAMIC DYNAMIC ENERGY COUPLING]
+--------------------------------------------------------------------------------
+* Deformation Vectors: Continuous Phonon Displacement (u_i) and Discontinuous 
+  Phason Displacement (w_i).
+* Constitutive Free Energy Expansion:
+    F = 1/2 * C_ijkl * ε_ij * ε_kl  +  R_ijkl * ε_ij * ζ_kl  +  1/2 * K_ijkl * ζ_ij * ζ_kl
+  - C_ijkl: Symmetric Phonon Elasticity Tensor (Propagating Modulus).
+  - K_ijkl: Asymmetric Phason Elasticity Tensor (Structural Rearrangement Energy).
+  - R_ijkl: Phonon-Phason Coupling Tensor (Slicing Window Deformation/Tilt).
+* Coupled Equations of Motion (Hyperbolic-Parabolic Matrix):
+    Phonon Dynamics (Propagating Wave):  ρ * ü_i = ∂_j ( σ_ij )
+    Phason Dynamics (Diffusive Relaxation): A * ŵ_i = ∂_j ( H_ij )
+  - Under rapid strain rates, the phason field lags (ŵ_i -> 0), freezing structural 
+    relaxation and causing extreme localized internal stress concentration.
+
+[AXIS 1.3: TOPOLOGICAL DEFECTS & DISLOCATION MECHANICAL PINNING]
+--------------------------------------------------------------------------------
+* Generalized Burgers Vector: B = (b_||, b_⊥) ∈ Z⁶
+  - Pure physical movement (b_||, 0) is geometrically impossible; any mechanical 
+    dislocation glide requires an explicit phason displacement (b_⊥).
+* Fault Matrix (The Phason Wall): Moving a dislocation line across physical space 
+  violates the x_⊥ ∈ [0, W) selection rule, dragging a 2D sheet of broken atomic 
+  bonds behind it.
+* Accumulating Retarding Force:
+    σ_retarding = γ_phason / |b_|||
+  - Unlike the periodic, self-canceling Peierls-Nabarro lattice resistance 
+    [σ_PN ~ sin(2πx/b)], the phason wall energy increases monotonically with 
+    displacement distance (E_wall ~ γ_phason * L).
+* Thermodynamic Crossover: At low temperatures, dislocations are completely pinned 
+  by the phason wall penalty, ensuring high hardness. Ductility unlocks only when 
+  thermal activation matches the phason barrier (k_B * T_c ~ ΔE), allowing the 
+  trailing damage sheet to diffuse and heal.
+================================================================================

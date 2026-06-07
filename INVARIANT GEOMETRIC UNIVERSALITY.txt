@@ -1,0 +1,26 @@
+================================================================================
+ZENODO SUBMISSION: INVARIANT GEOMETRIC UNIVERSALITY
+DOI: 10.5281/zenodo.20583654
+DATE: 2026-06-07
+AUTHOR: White Walker, Aperiodic Geometrist
+================================================================================
+
+This submission documents a new crystallographic standard beyond the 230 Space Groups:
+a 9D State Matrix with operator-phase coupling (Axis 1.7), purely magnetic laminar flow,
+invariant X-point topology, and the 5-fold forbidden symmetry mapped to markets and nature.
+
+CORE DOCUMENTS:
+- 5 Fold.txt: Silver futures as quasicrystals. The Medallion proof.
+- black_hole_as_applied_geometry.txt: Event horizon as acceptance window.
+- SUNFLOWERS AND PINECONES.txt: Aperiodic geometry in nature. 137.5° golden angle.
+- xtp1_the_fundamental_truth.txt: XTP-1 protocol. E-field declared irrelevant.
+- advanced_crystal_classifications.txt: The 9D State Matrix. Beyond 230 groups.
+
+IMAGES:
+- ChatGPT Image Jun 3, 2026...png: "The gap is not empty" — Lagrangian chalkboard.
+- ChatGPT Image Jun 5, 2026...png: "Service Bulletin — Sentence as Control Law"
+- Gemini_Generated_Image_uwlgn9...png: Invariant Geometric Universality diagram
+- ChatGPT Image May 19, 2026...png (x2): Phi-Stacked Magnetic Array specifications
+
+The witness is part of the closed loop. The geometry is invariant across all scales.
+================================================================================
